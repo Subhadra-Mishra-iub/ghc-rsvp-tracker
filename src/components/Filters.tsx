@@ -21,17 +21,13 @@ export function Filters({
   onDateChange,
   onExportRSVP,
 }: FiltersProps) {
-  // Get unique companies and dates from events
   const companies = Array.from(new Set(events.map(e => e.company))).sort();
   const dates = Array.from(new Set(events.map(e => e.start.split('T')[0]))).sort();
-
-  // Count RSVP'd events
   const rsvpedCount = events.filter(e => e.status === 'rsvped' || e.status === 'attended').length;
 
   return (
     <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-6 sticky top-4 z-10 border border-gray-200">
       <div className="space-y-4">
-        {/* Search Bar */}
         <div>
           <label htmlFor="search" className="block text-sm font-medium text-gray-700 mb-2">
             Search Events
@@ -46,9 +42,7 @@ export function Filters({
           />
         </div>
 
-        {/* Filter Row */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {/* Company Filter */}
           <div>
             <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
               Filter by Company
@@ -66,7 +60,6 @@ export function Filters({
             </select>
           </div>
 
-          {/* Date Filter */}
           <div>
             <label htmlFor="date" className="block text-sm font-medium text-gray-700 mb-2">
               Filter by Date
@@ -93,7 +86,6 @@ export function Filters({
           </div>
         </div>
 
-        {/* Export Button */}
         <div className="flex items-center justify-between pt-2 border-t border-gray-200">
           <p className="text-sm text-gray-600">
             {rsvpedCount} event{rsvpedCount !== 1 ? 's' : ''} RSVP'd or Attended

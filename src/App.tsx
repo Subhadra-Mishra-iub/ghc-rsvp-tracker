@@ -14,20 +14,16 @@ function App() {
   const [selectedCompany, setSelectedCompany] = useState('all');
   const [selectedDate, setSelectedDate] = useState('all');
 
-  // Filter events based on search, company, and date
   const filteredEvents = useMemo(() => {
     return events.filter(event => {
-      // Search filter
       const matchesSearch = 
         searchQuery === '' ||
         event.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         event.company.toLowerCase().includes(searchQuery.toLowerCase());
 
-      // Company filter
       const matchesCompany = 
         selectedCompany === 'all' || event.company === selectedCompany;
 
-      // Date filter
       const matchesDate = 
         selectedDate === 'all' || event.start.startsWith(selectedDate);
 
@@ -35,22 +31,18 @@ function App() {
     });
   }, [events, searchQuery, selectedCompany, selectedDate]);
 
-  // Handle status change
   const handleStatusChange = (id: number, status: EventStatus) => {
     setEvents(events.map(event => 
       event.id === id ? { ...event, status } : event
     ));
   };
 
-  // Handle events upload
   const handleEventsUploaded = (newEvents: Event[]) => {
-    // Merge with existing events, avoiding duplicates based on ID
     const existingIds = new Set(events.map(e => e.id));
     const uniqueNewEvents = newEvents.filter(e => !existingIds.has(e.id));
     setEvents([...events, ...uniqueNewEvents]);
   };
 
-  // Export RSVP'd events
   const handleExportRSVP = () => {
     const rsvpedEvents = events.filter(
       event => event.status === 'rsvped' || event.status === 'attended'
@@ -76,7 +68,6 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-primary-50">
       <div className="container mx-auto px-4 py-8 max-w-7xl">
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -90,7 +81,6 @@ function App() {
           </p>
         </motion.div>
 
-        {/* Uploader */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -99,7 +89,6 @@ function App() {
           <Uploader onEventsUploaded={handleEventsUploaded} />
         </motion.div>
 
-        {/* Filters */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -117,7 +106,6 @@ function App() {
           />
         </motion.div>
 
-        {/* Events Count */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -127,7 +115,6 @@ function App() {
           Showing {filteredEvents.length} of {events.length} event{events.length !== 1 ? 's' : ''}
         </motion.div>
 
-        {/* Events Grid */}
         {filteredEvents.length === 0 ? (
           <EmptyState />
         ) : (
@@ -151,7 +138,6 @@ function App() {
         )}
       </div>
 
-      {/* Footer */}
       <footer className="mt-12 py-6 text-center text-sm text-gray-500">
         <p>Built for Grace Hopper Celebration 2025 🎉</p>
       </footer>

@@ -19,7 +19,6 @@ export function Uploader({ onEventsUploaded }: UploaderProps) {
         const text = event.target?.result as string;
         const events = JSON.parse(text);
         if (Array.isArray(events)) {
-          // Validate and add status if missing
           const validatedEvents = events.map((event: any, index: number) => ({
             ...event,
             id: event.id || Date.now() + index,
@@ -75,7 +74,6 @@ export function Uploader({ onEventsUploaded }: UploaderProps) {
         <div className="mt-4 bg-white rounded-lg shadow-md p-6 border border-gray-200">
           <h3 className="text-lg font-semibold mb-4">Import Events</h3>
           <div className="space-y-4">
-            {/* File Upload */}
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 Upload JSON File
@@ -88,7 +86,6 @@ export function Uploader({ onEventsUploaded }: UploaderProps) {
               />
             </div>
 
-            {/* Or Divider */}
             <div className="relative">
               <div className="absolute inset-0 flex items-center">
                 <div className="w-full border-t border-gray-300"></div>
@@ -98,7 +95,6 @@ export function Uploader({ onEventsUploaded }: UploaderProps) {
               </div>
             </div>
 
-            {/* Paste JSON */}
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 Paste JSON

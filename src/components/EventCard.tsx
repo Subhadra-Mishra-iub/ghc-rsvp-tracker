@@ -65,13 +65,11 @@ export function EventCard({ event, onStatusChange }: EventCardProps) {
       className="bg-white rounded-lg shadow-md p-6 border border-gray-200 hover:shadow-lg transition-shadow"
     >
       <div className="flex flex-col space-y-4">
-        {/* Header */}
         <div>
           <h3 className="text-xl font-bold text-gray-900 mb-1">{event.title}</h3>
           <p className="text-lg text-primary-600 font-semibold">{event.company}</p>
         </div>
 
-        {/* Date & Time */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:gap-4 text-sm text-gray-600">
           <div className="flex items-center gap-1">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -87,7 +85,6 @@ export function EventCard({ event, onStatusChange }: EventCardProps) {
           </div>
         </div>
 
-        {/* Location */}
         <div className="flex items-start gap-2 text-sm text-gray-600">
           <svg className="w-4 h-4 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -96,7 +93,6 @@ export function EventCard({ event, onStatusChange }: EventCardProps) {
           <span className="flex-1">{event.location}</span>
         </div>
 
-        {/* Actions */}
         <div className="flex flex-col sm:flex-row gap-2 pt-2">
           <button
             onClick={cycleStatus}
