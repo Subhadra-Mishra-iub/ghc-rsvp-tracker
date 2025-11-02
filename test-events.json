@@ -1,0 +1,53 @@
+[
+  {
+    "id": 10,
+    "company": "Netflix",
+    "title": "Netflix Women in Engineering Mixer",
+    "start": "2025-11-07T19:00:00",
+    "end": "2025-11-07T21:00:00",
+    "location": "Chicago Convention Center - Ballroom A",
+    "rsvpUrl": "https://netflix.com/careers/ghc",
+    "status": "planned"
+  },
+  {
+    "id": 11,
+    "company": "Stripe",
+    "title": "Stripe Developer Night",
+    "start": "2025-11-08T18:00:00",
+    "end": "2025-11-08T20:00:00",
+    "location": "The Aviary Chicago",
+    "rsvpUrl": "https://stripe.com/jobs/ghc",
+    "status": "rsvped"
+  },
+  {
+    "id": 12,
+    "company": "Tesla",
+    "title": "Tesla Engineering Showcase",
+    "start": "2025-11-09T17:00:00",
+    "end": "2025-11-09T19:00:00",
+    "location": "Chicago Auto Show",
+    "rsvpUrl": "https://tesla.com/careers/ghc",
+    "status": "planned"
+  },
+  {
+    "id": 13,
+    "company": "Spotify",
+    "title": "Spotify Women in Tech Happy Hour",
+    "start": "2025-11-09T18:30:00",
+    "end": "2025-11-09T20:30:00",
+    "location": "Chicago Music Venue",
+    "rsvpUrl": "https://spotify.com/jobs/ghc",
+    "status": "planned"
+  },
+  {
+    "id": 14,
+    "company": "Uber",
+    "title": "Uber Engineering Deep Dive",
+    "start": "2025-11-10T19:00:00",
+    "end": "2025-11-10T21:00:00",
+    "location": "Uber Chicago Office",
+    "rsvpUrl": "https://uber.com/careers/ghc",
+    "status": "attended"
+  }
+]
+
