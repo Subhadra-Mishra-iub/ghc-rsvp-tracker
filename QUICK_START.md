@@ -64,4 +64,4 @@ npm run preview
 
 ---
 
-**Your app is ready! Follow DEPLOYMENT_STEPS.md for deployment instructions.**
+**Your website is ready! Follow DEPLOYMENT_STEPS.md for deployment instructions.**

@@ -6,7 +6,7 @@ As an attendee of Grace Hopper Celebration 2025, I found myself overwhelmed by t
 
 ## 📥 Input
 
-The app accepts event data in JSON format, either:
+The website accepts event data in JSON format, either:
 - **Uploaded JSON files** containing an array of event objects
 - **Pasted JSON text** directly into the import interface
 - **Default sample events** pre-loaded for demonstration
@@ -23,7 +23,7 @@ Each event object contains:
 
 ## 📤 Output
 
-The app provides:
+The website provides:
 - **Visual Event Cards**: Responsive grid display of all events with company, date, time, location, and RSVP links
 - **Filtered Views**: Subset of events matching search query, company filter, or date filter
 - **Status Tracking**: Visual indication (color-coded) of event status with ability to cycle through states

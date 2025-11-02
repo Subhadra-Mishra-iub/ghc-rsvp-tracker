@@ -73,7 +73,7 @@ Expected: Serves production build locally
 - [x] Dependencies installed
 - [ ] Development server tested
 - [ ] Production build tested
-- [ ] App works in browser
+- [ ] Website works in browser
 
 ## 🚨 Common Issues
 
@@ -100,7 +100,7 @@ npm config set prefix ~/.npm-global
 ## 🎯 Next Steps After Environment Setup
 
 1. ✅ Verify environment (this step)
-2. Test the app locally (`npm run dev`)
+2. Test the website locally (`npm run dev`)
 3. Build for production (`npm run build`)
 4. Set up Git repository
 5. Deploy to GitHub Pages

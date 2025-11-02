@@ -1,6 +1,6 @@
 # How to Enable GitHub Pages - Step by Step
 
-**✅ Your app is live!** Accessible to **everyone** at:
+**✅ Your website is live!** Accessible to **everyone** at:
 ```
 https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/
 ```
@@ -47,12 +47,12 @@ Visit it here: [https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/](https:/
 
 ## 🔗 Your Public Link
 
-Once enabled, your app will be live at:
+Once enabled, your website will be live at:
 ```
 https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/
 ```
 
-**Anyone with this link can access your app!**
+**Anyone with this link can access your website!**
 
 ---
 
@@ -71,7 +71,7 @@ https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/
 
 ## 🎉 What Happens Next?
 
-1. **Your app goes live** - Anyone can access it via the link
+1. **Your website goes live** - Anyone can access it via the link
 2. **Share the link** - Perfect for recruiters and GHC attendees!
 3. **Automatic updates** - When you run `npm run deploy` again, changes go live automatically
 
@@ -88,10 +88,10 @@ https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/
 - Check that `gh-pages` branch exists (should be there from deployment)
 - Verify the branch name in Settings → Pages
 
-### App loads but looks broken?
+### Website loads but looks broken?
 - Clear your browser cache (Ctrl+Shift+R or Cmd+Shift+R)
 - Check that base path in `vite.config.ts` matches repo name
 
 ---
 
-**That's it! Your app will be public and shareable! 🚀**
+**That's it! Your website will be public and shareable! 🚀**

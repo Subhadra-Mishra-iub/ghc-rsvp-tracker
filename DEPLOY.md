@@ -24,7 +24,7 @@
    - Source: `gh-pages` branch
    - Save
 
-Your app will be live at: `https://yourusername.github.io/your-repo-name/`
+Your website will be live at: `https://yourusername.github.io/your-repo-name/`
 
 ### Option 2: Manual Deployment
 

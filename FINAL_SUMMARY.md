@@ -23,7 +23,7 @@
 - ✅ README.md - Complete project documentation
 - ✅ DEPLOYMENT_STEPS.md - Detailed deployment guide
 - ✅ DEPLOY_NOW.md - Quick step-by-step deployment
-- ✅ DEMO_GUIDE.md - How to showcase the app
+- ✅ DEMO_GUIDE.md - How to showcase the website
 - ✅ PROJECT_SUMMARY.md - Inspiration and tech details
 - ✅ QUICK_START.md - Quick reference
 
@@ -68,7 +68,7 @@
    https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/
    ```
    
-   **✅ App is now live at:** [https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/](https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/)
+   **✅ Website is now live at:** [https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/](https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/)
 
 ## 📚 Documentation Files Created
 

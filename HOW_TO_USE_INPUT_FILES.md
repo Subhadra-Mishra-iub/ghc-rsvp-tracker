@@ -2,14 +2,14 @@
 
 ## 🎯 Understanding Input Files
 
-Your app accepts event data in **JSON format**. There are several ways to provide input:
+The website accepts event data in **JSON format**. There are several ways to provide input:
 
 ### Input File Locations
 
 1. **Default Events (Pre-loaded):**
    - Location: `src/data/defaultEvents.ts`
-   - These events load automatically when you open the app
-   - These are hardcoded in the app
+   - These events load automatically when you open the website
+   - These are hardcoded in the website
 
 2. **Sample JSON File (Reference):**
    - Location: `public/sample-events.json`
@@ -17,7 +17,7 @@ Your app accepts event data in **JSON format**. There are several ways to provid
    - You can upload this file to test the import feature
 
 3. **User-Provided JSON:**
-   - Upload any `.json` file through the app
+   - Upload any `.json` file through the website
    - OR paste JSON directly into the text area
 
 ---
@@ -55,7 +55,7 @@ Your app accepts event data in **JSON format**. There are several ways to provid
    ```
 
 2. **Import it:**
-   - Open the app (live or local)
+   - Open the website (live or local)
    - Click "📥 Import Events (JSON)"
    - Click "Upload JSON File"
    - Select your `my-events.json` file
@@ -64,7 +64,7 @@ Your app accepts event data in **JSON format**. There are several ways to provid
 ### Method 2: Paste JSON Directly
 
 1. **Copy JSON text** (from any source)
-2. **In the app:**
+2. **In the website:**
    - Click "📥 Import Events (JSON)"
    - Click "OR" divider
    - Paste JSON into the text area
@@ -183,7 +183,7 @@ Create `test-multiple.json`:
 
 1. **ID Conflicts:** If you import events with IDs that already exist, they won't be added again (prevents duplicates)
 
-2. **Auto-Generated IDs:** If you don't specify an `id`, the app will auto-generate one using timestamp + index
+2. **Auto-Generated IDs:** If you don't specify an `id`, the website will auto-generate one using timestamp + index
 
 3. **Status Default:** If `status` is missing, it defaults to `"planned"`
 

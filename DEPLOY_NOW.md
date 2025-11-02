@@ -47,7 +47,7 @@ git init
 git add .
 
 # Create initial commit
-git commit -m "Initial commit: GHC RSVP Tracker app"
+git commit -m "Initial commit: GHC RSVP Tracker website"
 
 # Add GitHub remote (REPLACE YOUR_USERNAME with your actual GitHub username)
 git remote add origin https://github.com/YOUR_USERNAME/ghc-rsvp-tracker.git
@@ -75,7 +75,7 @@ npm run deploy
 ```
 
 **What this does:**
-1. Builds your app for production
+1. Builds your website for production
 2. Creates a `gh-pages` branch
 3. Pushes the built files to GitHub
 
@@ -98,9 +98,9 @@ Published
 5. **Click:** "Save"
 6. **Wait 1-2 minutes** for GitHub to deploy
 
-## 📝 STEP 7: Access Your Live App! 🎉
+## 📝 STEP 7: Access Your Live Website! 🎉
 
-**Your app is now live at:**
+**Your website is now live at:**
 ```
 https://YOUR_USERNAME.github.io/ghc-rsvp-tracker/
 ```
@@ -112,7 +112,7 @@ https://johndoe.github.io/ghc-rsvp-tracker/
 
 **Share this link with recruiters and attendees!**
 
-## 🔄 Updating Your App (After Making Changes)
+## 🔄 Updating Your Website (After Making Changes)
 
 ```bash
 # Make your code changes
@@ -152,7 +152,7 @@ npm install --save-dev gh-pages
 ## ✅ Success Checklist
 
 After deployment, verify:
-- [ ] App loads at GitHub Pages URL
+- [ ] Website loads at GitHub Pages URL
 - [ ] All events display correctly
 - [ ] Filters work (search, company, date)
 - [ ] Status buttons work

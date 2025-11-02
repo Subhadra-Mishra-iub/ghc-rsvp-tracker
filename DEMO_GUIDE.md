@@ -2,13 +2,13 @@
 
 ## 🎬 Perfect Demo Flow (5 Minutes)
 
-Use this guide to showcase your app to recruiters and attendees at GHC 2025.
+Use this guide to showcase your website to recruiters and attendees at GHC 2025.
 
 ---
 
 ## 📋 Pre-Demo Setup
 
-1. **Open your live app** (GitHub Pages URL or localhost:5173)
+1. **Open your live website** (GitHub Pages URL or localhost:5173)
 2. **Have sample JSON ready** (from `public/sample-events.json`)
 3. **Clear localStorage** (optional - to show fresh state):
    - Open browser DevTools (F12)
@@ -25,7 +25,7 @@ Use this guide to showcase your app to recruiters and attendees at GHC 2025.
 ### Feature 1: View Events (30 seconds)
 **Action:** Show the default events loaded
 **Say:**
-> "When you open the app, you see all your events displayed as cards. Each card shows the company, event title, date, time, location, and RSVP link."
+> "When you open the website, you see all your events displayed as cards. Each card shows the company, event title, date, time, location, and RSVP link."
 
 **Highlights:**
 - Point out the responsive grid layout
@@ -98,7 +98,7 @@ Use this guide to showcase your app to recruiters and attendees at GHC 2025.
 
 ### Closing (30 seconds)
 **Say:**
-> "The whole app is built with React and TypeScript, styled with Tailwind CSS, and uses Framer Motion for smooth animations. It's fully client-side - no backend needed - and all data persists in the browser. Perfect for a quick personal organizer at conferences!"
+> "The whole website is built with React and TypeScript, styled with Tailwind CSS, and uses Framer Motion for smooth animations. It's fully client-side - no backend needed - and all data persists in the browser. Perfect for a quick personal organizer at conferences!"
 
 **Highlight:**
 - Mobile responsiveness (resize browser window)
@@ -139,7 +139,7 @@ After your demo, they should see:
 3. ✅ **Status persists after refresh** (localStorage working)
 4. ✅ **Import adds new events** (JSON parsing works)
 5. ✅ **Export downloads valid JSON** (file structure correct)
-6. ✅ **App is responsive** (works on mobile)
+6. ✅ **Website is responsive** (works on mobile)
 7. ✅ **Animations are smooth** (no janky transitions)
 
 ---
@@ -148,7 +148,7 @@ After your demo, they should see:
 
 If you have a phone handy:
 
-1. **Open the app on mobile browser**
+1. **Open the website on mobile browser**
 2. **Show:** Filters stack vertically
 3. **Show:** Cards are single column
 4. **Show:** Everything is touch-friendly

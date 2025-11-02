@@ -10,7 +10,7 @@
 
 ## 📝 Step 1: Verify Local Setup
 
-1. **Test the app locally:**
+1. **Test the website locally:**
    ```bash
    npm run dev
    ```
@@ -18,7 +18,7 @@
 2. **Open browser to:** `http://localhost:5173`
    
 3. **Verify it works:**
-   - ✅ App loads with default events
+   - ✅ Website loads with default events
    - ✅ Cards display correctly
    - ✅ Filters work
    - ✅ Status buttons work
@@ -64,7 +64,7 @@ git init
 git add .
 
 # Create initial commit
-git commit -m "Initial commit: GHC RSVP Tracker app"
+git commit -m "Initial commit: GHC RSVP Tracker website"
 
 # Add your GitHub repository as remote (REPLACE with your username and repo name)
 git remote add origin https://github.com/YOUR_USERNAME/ghc-rsvp-tracker.git
@@ -85,7 +85,7 @@ npm run deploy
 ```
 
 This will:
-1. Build your app for production
+1. Build your website for production
 2. Create a `gh-pages` branch
 3. Push the built files to GitHub
 
@@ -114,9 +114,9 @@ Published
 
 5. **Wait 1-2 minutes** for GitHub to deploy
 
-## 📝 Step 7: Access Your Live App
+## 📝 Step 7: Access Your Live Website
 
-1. **Your app will be live at:**
+1. **Your website will be live at:**
    ```
    https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/
    ```
@@ -125,9 +125,9 @@ Published
 
 2. **Share this link** with recruiters and attendees!
 
-## 🔄 Updating Your App (After Changes)
+## 🔄 Updating Your Website (After Changes)
 
-If you make changes to your app:
+If you make changes to your website:
 
 ```bash
 # Make your code changes
@@ -171,7 +171,7 @@ Make sure `base` path in `vite.config.ts` is correct and starts/ends with `/`
 ## ✅ Success Checklist
 
 After deployment, verify:
-- [ ] App loads at the GitHub Pages URL
+- [ ] Website loads at the GitHub Pages URL
 - [ ] All events display correctly
 - [ ] Filters work
 - [ ] Status updates persist (check localStorage)
@@ -181,4 +181,4 @@ After deployment, verify:
 
 ---
 
-**Congratulations! Your app is now live! 🎉**
+**Congratulations! Your website is now live! 🎉**
