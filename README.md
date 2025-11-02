@@ -119,44 +119,26 @@ To verify everything works correctly:
    - Mark some events as RSVP'd
    - Click "Export RSVP'd List" → JSON file downloads with correct events
 
+## 🚀 Live Application
+
+**🌐 Your app is live at:** [https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/](https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/)
+
+Visit the link above to use the application!
+
 ## 🚀 Deployment to GitHub Pages
 
-### Step 1: Update Repository Name
+**Already deployed!** The app is live and accessible.
 
-If your repository name is different from `ghc-rsvp-tracker`, update the `base` path in `vite.config.ts`:
-
-```typescript
-export default defineConfig({
-  plugins: [react()],
-  base: '/your-repo-name/',  // Change this
-})
-```
-
-### Step 2: Deploy
-
-1. **Push your code to GitHub**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin https://github.com/yourusername/your-repo-name.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-2. **Deploy to GitHub Pages**
+For future deployments:
+1. **Deploy to GitHub Pages**
    ```bash
    npm run deploy
    ```
-
-3. **Enable GitHub Pages**
+2. **Enable GitHub Pages** (if not already enabled)
    - Go to your repository on GitHub
    - Settings → Pages
    - Source: Select "gh-pages" branch
    - Save
-
-4. **Access your app**
-   - Your app will be live at: `https://yourusername.github.io/your-repo-name/`
 
 ## 📁 Project Structure
 

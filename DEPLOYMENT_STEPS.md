@@ -118,8 +118,10 @@ Published
 
 1. **Your app will be live at:**
    ```
-   https://YOUR_USERNAME.github.io/ghc-rsvp-tracker/
+   https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/
    ```
+   
+   **✅ Currently live at:** [https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/](https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/)
 
 2. **Share this link** with recruiters and attendees!
 

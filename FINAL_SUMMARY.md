@@ -65,8 +65,10 @@
 
 5. **Share Your Link!**
    ```
-   https://YOUR_USERNAME.github.io/ghc-rsvp-tracker/
+   https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/
    ```
+   
+   **✅ App is now live at:** [https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/](https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/)
 
 ## 📚 Documentation Files Created
 
