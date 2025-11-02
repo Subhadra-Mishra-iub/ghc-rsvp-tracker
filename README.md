@@ -95,11 +95,11 @@ Click **"Export RSVP'd List"** to download a JSON file containing all events you
 
 To verify everything works correctly:
 
-1. **Open the app locally**
+1. **Open the website locally**
    ```bash
    npm run dev
    ```
-   ✓ App loads with default sample events
+   ✓ Website loads with default sample events
 
 2. **Test Import**
    - Click "Import Events (JSON)"
@@ -119,15 +119,15 @@ To verify everything works correctly:
    - Mark some events as RSVP'd
    - Click "Export RSVP'd List" → JSON file downloads with correct events
 
-## 🚀 Live Application
+## 🚀 Live Website
 
-**🌐 Your app is live at:** [https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/](https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/)
+**🌐 Your website is live at:** [https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/](https://subhadra-mishra-iub.github.io/ghc-rsvp-tracker/)
 
-Visit the link above to use the application!
+Visit the link above to use the website!
 
 ## 🚀 Deployment to GitHub Pages
 
-**Already deployed!** The app is live and accessible.
+**Already deployed!** The website is live and accessible.
 
 For future deployments:
 1. **Deploy to GitHub Pages**
